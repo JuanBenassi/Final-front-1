@@ -1,0 +1,433 @@
+/* VIEWPORTmobile  ver en: 374px*/
+body    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+p {
+    margin: 20px;
+}
+/*header mobile */
+
+
+header div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.nav-header {
+    display: none;
+}
+
+.button-header {
+    display: none;
+}
+
+/*main mobile*/
+
+
+/*primera parte*/
+.primera-seccion {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+.graficos-imagen {
+    height: 300px;
+    padding-left: 20px;
+}
+
+
+.caja-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66.47px;
+    margin: 15px;
+}
+
+div p {
+    display: flex;
+    justify-content: center;
+}
+
+
+.get-started-1 {
+    color: #FFFFFF;;
+    background: #F3603B;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+    
+}
+
+
+/*segunda parte*/
+
+.segunda-seccion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div h3 {
+    font-size: 45px;
+    display: inline;
+}
+
+.card-texto {
+    margin: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    gap: 10px;
+}
+
+h4 {
+    background: rgb(243, 96, 59, 0.1);
+    height: 30px;  
+    width: 400px;
+    height: 40px;
+}
+
+
+/*tercera parte*/
+
+.titulo-what {
+    padding-top: 50px;
+    font-size: 40px;
+    
+}
+
+.tercera-seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+
+.tercera-seccion img {
+    width: 100px;
+}
+
+.parrafo-ali {
+    text-align: center;
+    margin: 20px;
+}
+
+.ali {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.anisha {
+    display: none;
+}
+.richard {
+    display: none;
+}
+
+
+
+/*cuarta parte*/
+
+
+.cuarta-seccion {
+    background: #F3603B;
+    color: #FFFFFF;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.cuarta-seccion button {
+    color: #F3603B;
+    background: #FFFFFF;
+    width: 130px;
+    height: 50px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+}
+
+.cuarta-seccion h2 {
+    margin: 20px;
+    
+}
+
+
+
+/*footer*/
+
+
+
+footer {
+    background: #1E1E26;
+    padding-top: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+form input {
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+
+
+.footer-logo-derechos {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*VIEWPORTlaptop ver en: 1440px*/
+@media (min-width: 375px) {
+
+
+
+    /*header*/
+    .header-caja {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .icono-hamburguesa {
+        display: none;
+    }
+    
+    .nav-header {
+        display: flex;
+        
+    }
+    .nav-flex {
+        display: flex;
+        gap: 40px;
+    }
+    .nav-flex li {
+        color: #242E52;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+
+    .button-header {
+        display: block;
+        color: #FFFFFF;;
+        background: #F3603B;
+        width: 100px;
+        height: 40px;
+        box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+        border-radius: 50px;
+        border: none;
+    }
+
+
+
+
+
+
+
+
+
+/*main*/
+
+
+/*primera seccion*/
+
+.primera-seccion {
+    flex-direction: row;
+}
+
+.caja-uno {
+    width: 25%;
+}
+
+/*segunda seccion*/
+
+.segunda-seccion {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caja-card-numerica {
+    width: 25%;
+}
+.caja-about {
+    width: 25%;
+}
+
+h4 {
+    background: #E5E5E5;
+    height: 30px;   
+}
+
+
+/*tercera seccion*/
+
+    .cajaFlex {
+        display: flex;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    .anisha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .richard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+
+/* cuarta seccion */
+
+.cuarta-seccion {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+form input {
+    height: 36px;
+    padding-left: 10px;
+}
+
+.redes {
+    position: absolute;
+    top: 140px;
+    right: 85%;
+    gap: 10px;
+}
+
+.footer-logo-derechos span {
+    position: absolute;
+    left: 76%;
+}
+
+.footer-logo-derechos img {
+    position: absolute;
+    padding-left: 120px;
+    bottom: 50%;
+}
+
+.footer-nav {
+    padding-left: 130px;
+    gap: 200px;
+}
+
+
+
+
+
+}
+
+a:hover {
+    color: #F3603B;
+}
+
+i:hover {
+    color: #F3603B;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.boton-blanco:hover {
+    background-color: rgb(241, 247, 253);
+}
+
+button:hover {
+    background-color: rgb(243, 96, 59, 0.5);
+}
+
+
+
+
+
